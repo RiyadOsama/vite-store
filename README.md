@@ -1,4 +1,4 @@
-# React Products
+# Vite Store
 
 This project is a full-stack web application with a React front-end and a JSON server back-end.
 
