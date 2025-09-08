@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "id": "ms1",
+      "name": "Oxford Slim Fit Shirt",
+      "price": "20",
+      "category": "menShirt"
+    },
+    {
+      "id": "ms2",
+      "name": "Casual Linen Shirt",
+      "price": "6",
+      "category": "menShirt"
+    },
+    {
+      "id": "fs1",
+      "name": "Silk Blouse",
+      "price": "11",
+      "category": "femaleShirt"
+    },
+    {
+      "id": "fs2",
+      "name": "Floral Chiffon Top",
+      "price": "10",
+      "category": "femaleShirt"
+    },
+    {
+      "id": "j1",
+      "name": "Leather Biker Jacket",
+      "price": "12",
+      "category": "jackets"
+    },
+    {
+      "id": "j2",
+      "name": "Denim Trucker Jacket",
+      "price": "5",
+      "category": "jackets"
+    },
+    {
+      "id": "j3",
+      "name": "Puffer Winter Jacket",
+      "price": "22",
+      "category": "jackets"
+    },
+    {
+      "id": "h1",
+      "name": "Oversized Hoodie",
+      "price": "12",
+      "category": "hoodies"
+    },
+    {
+      "id": "h2",
+      "name": "Zip-Up Hoodie",
+      "price": "22",
+      "category": "hoodies"
+    },
+    {
+      "id": "h3",
+      "name": "Graphic Print Hoodie",
+      "price": "9",
+      "category": "hoodies"
+    },
+    {
+      "id": "sf1",
+      "name": "Air Max Sneakers",
+      "price": "23",
+      "category": "femaleShoes"
+    },
+    {
+      "id": "sf2",
+      "name": "Classic Superstar",
+      "price": "13",
+      "category": "femaleShoes"
+    },
+    {
+      "id": "sf3",
+      "name": "Running Flex Shoes",
+      "price": "11",
+      "category": "femaleShoes"
+    },
+    {
+      "id": "sm1",
+      "name": "Court Vision Sneakers",
+      "price": "13",
+      "category": "maleShoes"
+    },
+    {
+      "id": "sm2",
+      "name": "UltraBoost Trainers",
+      "price": "15",
+      "category": "maleShoes"
+    },
+    {
+      "id": "sm3",
+      "name": "Campus 80s Shoes",
+      "price": "15",
+      "category": "maleShoes"
+    },
+    {
+      "id": "mp1",
+      "name": "Slim Fit Chinos",
+      "price": "13",
+      "category": "menPants"
+    },
+    {
+      "id": "mp2",
+      "name": "Straight Leg Jeans",
+      "price": "11",
+      "category": "menPants"
+    },
+    {
+      "id": "mp3",
+      "name": "Cargo Pants",
+      "price": "21",
+      "category": "menPants"
+    },
+    {
+      "id": "fp1",
+      "name": "High-Waist Trousers",
+      "price": "13",
+      "category": "femalePants"
+    },
+    {
+      "id": "fp2",
+      "name": "Skinny Jeans",
+      "price": "10",
+      "category": "femalePants"
+    },
+    {
+      "id": "fp3",
+      "name": "Wide-Leg Palazzo Pants",
+      "price": "22",
+      "category": "femalePants"
+    },
+    {
+      "id": "a1",
+      "name": "Leather Strap Watch",
+      "price": "10",
+      "category": "accessories"
+    },
+    {
+      "id": "a2",
+      "name": "Aviator Sunglasses",
+      "price": "15",
+      "category": "accessories"
+    },
+    {
+      "id": "a3",
+      "name": "Wool Scarf",
+      "price": "10",
+      "category": "accessories"
+    }
+  ]
+}
