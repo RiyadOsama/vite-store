@@ -43,40 +43,20 @@ function Footer() {
 
           <div className="col-md-4 ">
             <h5 className="mb-3">Contact</h5>
-            <p>Email: support@mywebsite.com</p>
-            <p>Phone: +123 456 789</p>
+            <p>Email: riyadosama14112000@gmail.com</p>
+            <p>Phone: +201555244668</p>
 
             <div className="d-flex gap-3">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary fs-4"
-              >
+              <a href="#" rel="noreferrer" className="text-primary fs-4">
                 <FaFacebook />
               </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noreferrer"
-                className="text-success fs-4"
-              >
+              <a href="#" rel="noreferrer" className="text-success fs-4">
                 <FaTwitter />
               </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noreferrer"
-                className="text-danger fs-4"
-              >
+              <a href="#" rel="noreferrer" className="text-danger fs-4">
                 <FaInstagram />
               </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noreferrer"
-                className="text-dark fs-4"
-              >
+              <a href="#" rel="noreferrer" className="text-dark fs-4">
                 <FaLinkedin />
               </a>
             </div>
@@ -85,7 +65,7 @@ function Footer() {
 
         <hr className="border-dark" />
         <p className="text-center mb-0">
-          © {new Date().getFullYear()} React Products. All rights reserved.
+          © {new Date().getFullYear()} Vite Store. All rights reserved.
         </p>
       </div>
     </footer>

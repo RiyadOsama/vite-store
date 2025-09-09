@@ -7,9 +7,8 @@ import { useNavigate, useParams } from "react-router-dom";
 function ProductForm() {
   const [product, setProduct] = useState({ name: "", price: 0, category: "" });
   const navigate = useNavigate();
-  const { id } = useParams(); // get product id from URL
+  const { id } = useParams();
 
-  // 🔹 Load product if editing
   useEffect(() => {
     if (id) {
       getProduct(id)
@@ -31,7 +30,7 @@ function ProductForm() {
         const response = await createProduct(product);
         console.log("Product added:", response.data);
       }
-      setProduct({ name: "", price: 0, category: "" }); // reset form
+      setProduct({ name: "", price: 0, category: "" });
       navigate("/productList");
     } catch (error) {
       console.error("Error saving product:", error.message);

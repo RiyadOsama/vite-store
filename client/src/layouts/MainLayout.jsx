@@ -13,7 +13,7 @@ function MainLayout() {
         <Routes>
           <Route path="/" element={<SharedLayout />}>
             <Route index element={<Home />} />
-                        <Route path="productList" element={<ProductList />} />
+            <Route path="productList" element={<ProductList />} />
             <Route path="productList/new" element={<ProductForm />} />
             <Route path="productList/:id" element={<ProductDetails />} />
             <Route path="productList/:id/edit" element={<ProductForm />} />

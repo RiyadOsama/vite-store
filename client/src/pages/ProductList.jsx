@@ -11,7 +11,6 @@ function ProductList() {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Fetch products only once
   useEffect(() => {
     getProducts()
       .then((response) => setProducts(response.data))
@@ -29,7 +28,6 @@ function ProductList() {
     }
   }
 
-  // Filtered products based on search input
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -42,7 +40,13 @@ function ProductList() {
         </Link>
 
         <input
-          style={{ padding: "8px 12px", flex: 1 }}
+          style={{
+            padding: "7px 12px",
+            flex: 1,
+            outline: "none",
+            borderRadius: "5px",
+            border: "1px solid #ccc",
+          }}
           type="text"
           placeholder="Search Product..."
           value={searchTerm}

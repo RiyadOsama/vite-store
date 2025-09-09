@@ -2,44 +2,6 @@
 
 This project is a full-stack web application with a React front-end and a JSON server back-end.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-You need to have Node.js and npm installed on your machine.
-
-### Installation
-
-1. **Clone the repo**
-   ```sh
-   git clone https://github.com/RiyadOsama/react-products.git
-   ```
-2. **Install NPM packages for the client**
-   ```sh
-   cd client
-   npm install
-   ```
-3. **Install NPM packages for the server**
-   ```sh
-   cd ../server
-   npm install
-   ```
-
-## Technologies Used
-
-- **Frontend:**
-  - React
-  - Vite
-  - Axios
-  - Bootstrap
-  - React-Bootstrap
-  - React-Router-DOM
-  - Styled-Components
-- **Backend:**
-  - JSON-Server
-
 ## Project Structure
 
 ```
@@ -48,8 +10,6 @@ React-3/
 │   ├── src/
 │   │   ├── api/
 │   │   │   └── productAPI.js
-│   │   ├── assets/
-│   │   │   └── imgs/
 │   │   ├── components/
 │   │   │   ├── atoms/
 │   │   │   │   └── Button.style.jsx
@@ -73,6 +33,64 @@ React-3/
     ├── data.json
     └── ...
 ```
+
+## Technologies Used
+
+- **Frontend:**
+  - React
+  - Vite
+  - Axios
+  - Bootstrap
+  - React-Bootstrap
+  - React-Router-DOM
+  - Styled-Components
+- **Backend:**
+  - JSON-Server
+
+## React Features Used
+
+This project utilizes modern React features to create a dynamic and efficient user experience.
+
+### React Hooks
+
+- **`useState`**: Used for managing component-level state, such as storing the list of products, handling form inputs, and managing search terms.
+- **`useEffect`**: Used to perform side effects in function components. In this project, it's primarily used to fetch data from the API when a component mounts.
+- **`useParams`**: Part of `react-router-dom`, this hook is used to access URL parameters, for instance, to get the product ID from the URL in the `ProductDetails` page.
+- **`useNavigate`**: Part of `react-router-dom`, this hook is used to navigate programmatically, for example, redirecting the user to the product list page after a product has been deleted.
+
+### Other React Features
+
+- **React Router (`react-router-dom`)**: Implemented for client-side routing to enable navigation between different pages (`Home`, `ProductList`, `ProductDetails`, etc.) without a full page reload.
+- **Functional Components**: The entire application is built using functional components, which are simpler and more concise than class components.
+- **JSX**: Used to write HTML-like code within JavaScript, making the component structure more readable and intuitive.
+- **Props**: Used to pass data from parent to child components, enabling component reusability and a unidirectional data flow.
+- **Conditional Rendering**: Used to dynamically render different UI elements based on the application's state, such as displaying a "Loading..." message while fetching data or showing "No products found".
+- **Styled-Components**: Used for styling components with tagged template literals, allowing for more modular and maintainable CSS.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have Node.js and npm installed on your machine.
+
+### Installation
+
+1. **Clone the repo**
+   ```sh
+   git clone https://github.com/RiyadOsama/vite-store.git
+   ```
+2. **Install NPM packages for the client**
+   ```sh
+   cd client
+   npm install
+   ```
+3. **Install NPM packages for the server**
+   ```sh
+   cd ../server
+   npm install
+   ```
 
 ## Available Scripts
 

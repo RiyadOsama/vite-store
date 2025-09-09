@@ -6,13 +6,15 @@ import { getProduct } from "../api/productAPI";
 function ProductDetails() {
   const [selectedProduct, setSelectedProduct] = useState("");
   const { id } = useParams();
+
   useEffect(() => {
     getProduct(id)
       .then((response) => setSelectedProduct(response.data))
       .catch((error) =>
-        console.error("Error fetching products:", error.message)
+        console.error("Error fetching product:", error.message)
       );
   }, [id]);
+
   return (
     <div className="container mt-5 w-50">
       <h2>Product Details</h2>
