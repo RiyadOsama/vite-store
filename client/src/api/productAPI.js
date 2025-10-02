@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "https://vite-store.onrender.com";
+const baseURL = "https://vite-store.onrender.com/products";
 
 // CRUD Operations
 const createProduct = async (product) => axios.post(baseURL, product); // Create
